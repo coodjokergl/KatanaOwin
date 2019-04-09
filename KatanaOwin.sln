@@ -25,13 +25,22 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "KatanaOwin", "KatanaOwin\",
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OwinSelfHost", "OwinSelfHost\OwinSelfHost.csproj", "{2A686C1D-A9FC-419D-BBF3-8402DF79798A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{5F29B7B9-10DF-4B30-AF4F-20751F653489}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5F29B7B9-10DF-4B30-AF4F-20751F653489}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F29B7B9-10DF-4B30-AF4F-20751F653489}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F29B7B9-10DF-4B30-AF4F-20751F653489}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{2A686C1D-A9FC-419D-BBF3-8402DF79798A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A686C1D-A9FC-419D-BBF3-8402DF79798A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A686C1D-A9FC-419D-BBF3-8402DF79798A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A686C1D-A9FC-419D-BBF3-8402DF79798A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
